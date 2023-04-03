@@ -6,7 +6,9 @@ import './App.css';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 // import EventsClass from './components/EventsClass';
 // import EventsFunctional from './components/EventsFunctional';
-import EventBinding from './components/EventBinding';
+// import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       < StatefulGreetingWithCallback greeting="I'm a stateful class component with callback" />
       < EventsClass />
       < EventsFunctional /> */}
-      < EventBinding />
+      {/* < EventBinding /> */}
+      < ConditionalRenderingClass />
+      < ConditionalRenderingFunctional connected={true} />
     </div>
   );
 }
