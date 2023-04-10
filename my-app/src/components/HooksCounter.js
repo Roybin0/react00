@@ -16,6 +16,6 @@ export default function HooksCounter(props) {
             Increment Counter
         </button>
     </div>
-  )
+  ) 
 }
 
